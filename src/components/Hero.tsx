@@ -12,7 +12,7 @@ const Hero = () => {
                 </div>
 
                 {/* Headline */}
-                <div className="relative border-4 border-accent-pink p-8 px-12 mb-10">
+                <div className="relative p-8 px-12 mb-10">
                     <h1 className="text-6xl font-bold text-primary leading-tight">
                         Dozens of apps.<br />
                         One subscription.<br />
