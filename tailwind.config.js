@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['"Avenir Next"', 'sans-serif'],
+      },
       colors: {
         background: '#1F2125',
         primary: '#FFFFFF',
