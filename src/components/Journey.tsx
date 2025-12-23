@@ -23,7 +23,33 @@ const Journey = () => {
                     <ChevronLeft className="w-6 h-6 hover:text-white cursor-pointer" />
                     <ChevronRight className="w-6 h-6 hover:text-white cursor-pointer" />
                 </div>
-                 <img src="./Slider-Section.png" alt="" />
+
+                {/* Content container */}
+                <div className="flex flex-col md:flex-row w-full h-full p-12 items-center gap-12">
+
+                    {/* Left Text */}
+                    <div className="flex-1 space-y-6 z-10">
+                        <h3 className="text-2xl md:text-3xl font-medium text-white leading-relaxed">
+                            Musicians like Jason use Setapp to push the limits of their creativity, dancing through tasks for more time to play.
+                        </h3>
+                        <p className="text-white/60 text-sm tracking-wide uppercase">Jason Staczek</p>
+
+                        <button className="mt-8 bg-white text-journey-card w-14 h-14 rounded-full flex items-center justify-center hover:scale-110 transition-transform">
+                            <Play className="fill-current w-6 h-6 ml-1" />
+                        </button>
+                    </div>
+
+                    {/* Right Image/Person Placeholder */}
+                    {/* Using a generated-like placeholder to match the "bearded creative" look */}
+                    <div className="flex-1 h-full min-h-[300px] md:min-h-[400px] relative flex items-center justify-center">
+                        <img
+                            src="/journey-person.png"
+                            alt="Jason Staczek"
+                            className="w-full h-full object-cover rounded-2xl"
+                        />
+                    </div>
+
+                </div>
             </div>
 
             {/* Pagination Dots */}
