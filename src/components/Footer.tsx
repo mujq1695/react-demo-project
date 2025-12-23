@@ -1,5 +1,5 @@
 
-import { Diamond, ChevronRight, Facebook, Twitter, Instagram, Youtube, ChevronDown } from 'lucide-react';
+import { ChevronRight, Facebook, Twitter, Instagram, Youtube, ChevronDown } from 'lucide-react';
 
 const Footer = () => {
     return (

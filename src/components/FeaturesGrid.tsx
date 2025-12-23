@@ -1,5 +1,5 @@
 
-import { ArrowRight, Play, Trash2, Video, Phone } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const FeaturesGrid = () => {
     return (
@@ -37,7 +37,7 @@ const FeaturesGrid = () => {
 
             {/* Footer Link */}
             <div className="w-full text-center">
-                <a href="#" className="inline-flex items-center gap-2 text-white hover:text-primary font-medium transition-colors">
+                <a href="#" className="inline-flex items-center gap-2 text- hover:text-primary font-medium transition-colors">
                     View all superpowers
                     <ArrowRight className="w-4 h-4" />
                 </a>

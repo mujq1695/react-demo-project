@@ -1,4 +1,4 @@
-import { Diamond } from 'lucide-react';
+import {} from 'lucide-react';
 
 const Navbar = () => {
     return (
