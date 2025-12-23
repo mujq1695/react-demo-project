@@ -8,26 +8,17 @@ const Footer = () => {
             {/* Overlapping CTA Card */}
             {/* Negative top margin to pull it up into the previous section */}
             <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-[1200px] px-8 z-10">
-                <div className="bg-footer-cta rounded-[32px] p-16 md:p-20 text-center flex flex-col items-center">
+                <div className="bg-[#F5F5F5] rounded-[32px] p-16 md:p-20">
                     {/* Logo Stack */}
-                    <div className="mb-8 flex flex-col items-center gap-1">
-                        <div className="flex gap-1">
-                            <div className="w-6 h-6 bg-[#D9AD8C] rotate-45 rounded-sm opacity-80"></div>
-                        </div>
-                        <div className="flex gap-1 -mt-3">
-                            <div className="w-6 h-6 bg-[#D9AD8C] rotate-45 rounded-sm opacity-80"></div>
-                            <div className="w-6 h-6 bg-[#D9AD8C] rotate-45 rounded-sm opacity-80"></div>
-                        </div>
-                        <div className="flex gap-1 -mt-3">
-                            <div className="w-6 h-6 bg-[#D9AD8C] rotate-45 rounded-sm opacity-80"></div>
-                        </div>
+                    <div className="mb-8">
+                           <img src="./DoubleLogo.svg" alt="" height={'120px'} />
                     </div>
 
-                    <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 max-w-2xl leading-tight">
+                    <h2 className="text-3xl md:text-5xl font-semibold text-[#26262B] mb-4  leading-tight">
                         Superpowers starting $9.99/month. Free for 7 days.
                     </h2>
 
-                    <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full justify-center">
+                    <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full">
                         <button className="bg-[#1F2125] text-white px-8 py-4 rounded-lg font-medium hover:bg-black transition-colors min-w-[200px]">
                             Get started now
                         </button>
@@ -46,11 +37,11 @@ const Footer = () => {
                     {/* Left Column: Brand & Newsletter */}
                     <div className="flex-1 max-w-sm">
                         <div className="flex items-center gap-2 text-white mb-8">
-                            <Diamond className="w-6 h-6 fill-current" />
+                            <img src="./DoubleLogo.svg" alt="" width={'20px'} />
                             <span className="font-bold text-lg tracking-widest">SETAPP</span>
                         </div>
 
-                        <p className="mb-4">Updates from our team, written with love ❤️</p>
+                        <p className="mb-4 text-white">Updates from our team, written with love ❤️</p>
 
                         <div className="flex h-12">
                             <input
@@ -67,36 +58,36 @@ const Footer = () => {
                     {/* Links Columns */}
                     <div className="flex gap-16 flex-wrap md:flex-nowrap">
                         <div className="space-y-4">
-                            <a href="#" className="block hover:text-white transition-colors">Home</a>
-                            <a href="#" className="block hover:text-white transition-colors">How It Works</a>
-                            <a href="#" className="block hover:text-white transition-colors">All Apps</a>
-                            <a href="#" className="block hover:text-white transition-colors">Pricing</a>
-                            <a href="#" className="block hover:text-white transition-colors">Setapp for Teams</a>
-                            <a href="#" className="block hover:text-white transition-colors">Blog</a>
-                            <a href="#" className="block hover:text-white transition-colors">Podcast</a>
-                            <a href="#" className="block hover:text-white transition-colors">Download</a>
+                            <a href="#" className="block hover:text-white text-white">Home</a>
+                            <a href="#" className="block hover:text-white text-white">How It Works</a>
+                            <a href="#" className="block hover:text-white text-white">All Apps</a>
+                            <a href="#" className="block hover:text-white text-white">Pricing</a>
+                            <a href="#" className="block hover:text-white text-white">Setapp for Teams</a>
+                            <a href="#" className="block hover:text-white text-white">Blog</a>
+                            <a href="#" className="block hover:text-white text-white">Podcast</a>
+                            <a href="#" className="block hover:text-white text-white">Download</a>
                         </div>
 
                         <div className="space-y-4">
-                            <a href="#" className="block hover:text-white transition-colors">About</a>
-                            <a href="#" className="block hover:text-white transition-colors">Support</a>
-                            <a href="#" className="block hover:text-white transition-colors">Education Discount</a>
-                            <a href="#" className="block hover:text-white transition-colors">Family Plan</a>
-                            <a href="#" className="block hover:text-white transition-colors">For Developers</a>
-                            <a href="#" className="block hover:text-white transition-colors">Gift Cards</a>
-                            <a href="#" className="block hover:text-white transition-colors">Redeem Card or Code</a>
-                            <a href="#" className="block hover:text-white transition-colors">Setapp Reviews</a>
-                            <a href="#" className="block hover:text-white transition-colors">Affiliate Program</a>
-                            <a href="#" className="block hover:text-white transition-colors">Mac Developer Survey 2023</a>
+                            <a href="#" className="block hover:text-white text-white">About</a>
+                            <a href="#" className="block hover:text-white text-white">Support</a>
+                            <a href="#" className="block hover:text-white text-white">Education Discount</a>
+                            <a href="#" className="block hover:text-white text-white">Family Plan</a>
+                            <a href="#" className="block hover:text-white text-white">For Developers</a>
+                            <a href="#" className="block hover:text-white text-white">Gift Cards</a>
+                            <a href="#" className="block hover:text-white text-white">Redeem Card or Code</a>
+                            <a href="#" className="block hover:text-white text-white">Setapp Reviews</a>
+                            <a href="#" className="block hover:text-white text-white">Affiliate Program</a>
+                            <a href="#" className="block hover:text-white text-white">Mac Developer Survey 2023</a>
                         </div>
 
                         <div className="space-y-4">
-                            <a href="#" className="block hover:text-white transition-colors">Getting started with Setapp</a>
-                            <a href="#" className="block hover:text-white transition-colors">Remote access to other Mac</a>
-                            <a href="#" className="block hover:text-white transition-colors">Fix macOS Ventura problems</a>
-                            <a href="#" className="block hover:text-white transition-colors">Best productivity apps</a>
-                            <a href="#" className="block hover:text-white transition-colors">Best YouTube downloaders</a>
-                            <a href="#" className="block hover:text-white transition-colors">Uninstall apps</a>
+                            <a href="#" className="block hover:text-white text-white">Getting started with Setapp</a>
+                            <a href="#" className="block hover:text-white text-white">Remote access to other Mac</a>
+                            <a href="#" className="block hover:text-white text-white">Fix macOS Ventura problems</a>
+                            <a href="#" className="block hover:text-white text-white">Best productivity apps</a>
+                            <a href="#" className="block hover:text-white text-white">Best YouTube downloaders</a>
+                            <a href="#" className="block hover:text-white text-white">Uninstall apps</a>
                         </div>
                     </div>
                 </div>

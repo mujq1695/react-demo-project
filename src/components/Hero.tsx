@@ -7,8 +7,8 @@ const Hero = () => {
             {/* Central Content */}
             <div className="z-10 flex flex-col items-center text-center">
                 {/* Logo */}
-                <div className="w-20 h-20 bg-black rounded-3xl flex items-center justify-center mb-10 shadow-2xl border border-white/5">
-                    <Diamond className="w-10 h-10 text-sticker-orange fill-current" />
+                <div className="w-[130px] h-[130px] bg-black rounded-3xl flex items-center justify-center mb-10 shadow-2xl border border-white/5">
+                   <img src="./Logo.svg" width={'58px'} alt="" />
                 </div>
 
                 {/* Headline */}
@@ -44,7 +44,7 @@ const Hero = () => {
                     </button>
                 </div>
 
-                <p className="text-secondary max-w-md text-center leading-relaxed">
+                <p className="text-white max-w-md text-center leading-relaxed">
                     Power up your workflow with Setapp, a<br />
                     smart way to get apps.
                 </p>
